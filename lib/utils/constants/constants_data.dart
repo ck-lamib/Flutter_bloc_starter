@@ -1,0 +1,1 @@
+//store datas like map or gender map

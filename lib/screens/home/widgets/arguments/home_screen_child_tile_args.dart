@@ -1,0 +1,3 @@
+class HomeScreenChildTileArgument {
+  HomeScreenChildTileArgument();
+}

@@ -1,0 +1,29 @@
+{
+    "@@locale": "en",
+    "home": "Home",
+    "@home": {
+        "description": "home"
+    },
+    "tasks": "Tasks",
+    "@tasks": {
+        "description": "tasks"
+    },
+    "services": "Services",
+    "@services": {
+        "description": "services"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "description": "profile"
+    },
+    "appPageRouteNotFound": "Sorry cannot find app navigation Route for {pageName} \n Please ask your app admin",
+    "@appPageRouteNotFound": {
+        "description": "appPageRouteNotFound",
+        "placeholders": {
+            "pageName": {
+                "type": "String",
+                "example": "Splash page"
+            }
+        }
+    }
+}
