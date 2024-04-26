@@ -17,6 +17,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class MyDemoApp extends StatelessWidget {
   const MyDemoApp({
@@ -154,9 +155,9 @@ class HrmAppView extends StatelessWidget {
       title: "Hrm App",
       navigatorKey: navigatorKey,
       scaffoldMessengerKey: scaffoldKey,
-      // localizationsDelegates: AppLocalizations.localizationsDelegates,
+      localizationsDelegates: AppLocalizations.localizationsDelegates,
       debugShowCheckedModeBanner: false,
-      // supportedLocales: AppLocalizations.supportedLocales,
+      supportedLocales: AppLocalizations.supportedLocales,
       onGenerateRoute: onGenerateRoute,
       initialRoute: SplashScreen.routeName,
       theme: MyAppTheme.lightTheme,
